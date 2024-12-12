@@ -35,6 +35,7 @@ const RAW_RUNTIME_STATE =
           ["react-dom", "virtual:9789abd8c2502a9b3015d43df633a8d5a0f360b6df39209f7bdfbe74b91f7b8dcd07a613a939d93ca07cdd0ade5fd93c3661e5a5bb428e50a35bb06c81b287cb#npm:19.0.0"],\
           ["react-icons", "virtual:9789abd8c2502a9b3015d43df633a8d5a0f360b6df39209f7bdfbe74b91f7b8dcd07a613a939d93ca07cdd0ade5fd93c3661e5a5bb428e50a35bb06c81b287cb#npm:5.4.0"],\
           ["react-scripts", "virtual:9789abd8c2502a9b3015d43df633a8d5a0f360b6df39209f7bdfbe74b91f7b8dcd07a613a939d93ca07cdd0ade5fd93c3661e5a5bb428e50a35bb06c81b287cb#npm:5.0.1"],\
+          ["uuid", "npm:11.0.3"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
         "linkType": "SOFT"\
@@ -17008,6 +17009,7 @@ const RAW_RUNTIME_STATE =
           ["react-dom", "virtual:9789abd8c2502a9b3015d43df633a8d5a0f360b6df39209f7bdfbe74b91f7b8dcd07a613a939d93ca07cdd0ade5fd93c3661e5a5bb428e50a35bb06c81b287cb#npm:19.0.0"],\
           ["react-icons", "virtual:9789abd8c2502a9b3015d43df633a8d5a0f360b6df39209f7bdfbe74b91f7b8dcd07a613a939d93ca07cdd0ade5fd93c3661e5a5bb428e50a35bb06c81b287cb#npm:5.4.0"],\
           ["react-scripts", "virtual:9789abd8c2502a9b3015d43df633a8d5a0f360b6df39209f7bdfbe74b91f7b8dcd07a613a939d93ca07cdd0ade5fd93c3661e5a5bb428e50a35bb06c81b287cb#npm:5.0.1"],\
+          ["uuid", "npm:11.0.3"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
         "linkType": "SOFT"\
@@ -17489,6 +17491,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["uuid", [\
+      ["npm:11.0.3", {\
+        "packageLocation": "../../../C:/Users/yuyu0/AppData/Local/Yarn/Berry/cache/uuid-npm-11.0.3-abcb5b16c0-10c0.zip/node_modules/uuid/",\
+        "packageDependencies": [\
+          ["uuid", "npm:11.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:8.3.2", {\
         "packageLocation": "../../../C:/Users/yuyu0/AppData/Local/Yarn/Berry/cache/uuid-npm-8.3.2-eca0baba53-10c0.zip/node_modules/uuid/",\
         "packageDependencies": [\

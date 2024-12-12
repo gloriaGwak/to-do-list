@@ -29,14 +29,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 20px;
+    height: 20px;
+    background: none;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.btn_delete:hover{
+    transform: rotate(45deg);
+}
+.btn_delete svg{
     width: 18px;
     height: 18px;
-    background: none;
-    border-radius: 100%;
-    cursor: pointer;
-}
-
-.btn_delete svg{
-    width: 100%;
-    height: 100%;
 }

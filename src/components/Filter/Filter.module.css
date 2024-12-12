@@ -25,6 +25,9 @@
 .filter li{
 
 }
+.filter .active button{
+    font-weight: bold;
+}
 
 .filter li button{
 
