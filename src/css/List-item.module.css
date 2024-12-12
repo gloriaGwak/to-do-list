@@ -1,0 +1,42 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 5px 0;
+    gap:10px;
+}
+.checkbox_wrap{
+    width: calc(100% - 30px);
+    font-size: 0;
+}
+.checkbox_wrap input[type="checkbox"]{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 2px;
+    vertical-align: top;
+}
+.checkbox_wrap label{
+    display: inline-block;
+    width: calc(100% - 1.6rem);
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+.checkbox_wrap input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+}
+.btn_delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.btn_delete svg{
+    width: 100%;
+    height: 100%;
+}
