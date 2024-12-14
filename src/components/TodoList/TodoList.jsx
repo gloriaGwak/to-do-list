@@ -1,23 +1,18 @@
 import React, { useEffect, useState } from 'react';
-import { MdDeleteForever } from "react-icons/md";
 import listStyle from './TodoList.module.css';
-import Filter from '../Filter/Filter';
 import AddTodo from '../AddTodo/AddTodo';
 import Todo from '../Todo/Todo';
 
-export default function TodoList() {
+export default function TodoList({ filter }) {
     const [todos, setTodos] = useState([
         {id:'todo0', text:'장보기', status:'active'},
         {id:'todo1', text:'공부하기', status:'active'},
     ]);
-    const [checked, setChecked] = useState(false);
 
     useEffect(() => {
         const toDolists = JSON.parse(localStorage.getItem('list') || '[]');
-
         setTodos(toDolists);
     },[])
-    
 
     const handleAdd = (todo) => {
         setTodos([...todos, todo]);
@@ -37,18 +32,19 @@ export default function TodoList() {
             return false;
         }
     }
+    const filtered = getFilteredItems(todos, filter);
 
     return (
         <>
-            <Filter/>
             <div className={listStyle.list_area}>
                 <ul>
-                    {todos.map((item,idx) => (
+                    {filtered.map((item,idx) => (
                         <Todo 
                             key={item.id} 
                             todo={item} 
                             onUpdate={handleUpdate} 
                             // onDelete={handleDelete} 
+                            // onUpdate={()=>handleUpdate(item,idx)} 
                             onDelete={()=>handleDelete(item,idx)} 
                         />
                     ))}
@@ -59,3 +55,9 @@ export default function TodoList() {
     );
 }
 
+function getFilteredItems(todos, filter){
+    if(filter === 'all'){
+        return todos;
+    }
+    return todos.filter((todo) => todo.status === filter);
+}

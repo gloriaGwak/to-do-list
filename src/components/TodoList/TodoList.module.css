@@ -1,13 +1,6 @@
-
-.list_wrap{
-    overflow: hidden;
-    width: 350px;
-    margin: 0 auto;
-    background: #fef8e8;
-    border-radius: 8px;
-}
 .list_area{
     overflow-y: auto;
     height: 450px;
+    background: #fef8e8;
     padding: 1rem;
 }

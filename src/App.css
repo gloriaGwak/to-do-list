@@ -9,11 +9,6 @@
     overflow: hidden;
     width: 350px;
     margin: 0 auto;
-    background: #fef8e8;
     border-radius: 8px;
-}
-.list_area{
-    overflow-y: auto;
-    height: 450px;
-    padding: 1rem;
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.2)
 }

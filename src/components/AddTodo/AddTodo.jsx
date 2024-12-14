@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import {v4 as uuid4} from 'uuid';
 import { TiPlus } from "react-icons/ti";
 import inputStyle from './AddTodo.module.css';
