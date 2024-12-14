@@ -1,6 +1,6 @@
 .list_area{
     overflow-y: auto;
-    height: 450px;
-    background: #fef8e8;
+    height: 350px;
+    background: var(--color-beige);
     padding: 1rem;
 }
