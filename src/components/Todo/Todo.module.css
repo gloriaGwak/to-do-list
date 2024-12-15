@@ -39,6 +39,7 @@
     height: 20px;
     background: none;
     cursor: pointer;
+    color: var(--color-text);
     transition: transform .2s;
 }
 .btn_delete:hover{

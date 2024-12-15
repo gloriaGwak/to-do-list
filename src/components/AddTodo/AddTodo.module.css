@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0.8rem 1rem;
-    background: var(--color-darkBeige);
+    background: var(--color-mint2);
     gap: 10px;
 }
 
@@ -33,7 +33,7 @@
     height: 30px;
     padding: 0 7px;
     border-radius: 4px;
-    background: var(--color-mint);
+    background: var(--color-mint3);
     gap: 3px;
     cursor: pointer;
     color: var(--color-text);

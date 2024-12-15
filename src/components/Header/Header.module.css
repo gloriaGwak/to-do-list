@@ -3,26 +3,28 @@
     align-items: center;
     justify-content: space-between;
     padding: 9px 1rem 8px;
-    background: var(--color-darkBeige);
+    background: var(--color-mint2);
 }
 .filters button{
-    background: none;
     cursor: pointer;
+    background-color: transparent;
 }
-
-.filters .dark_mode{
+.btn_toggle{
     display: flex;
     align-items: center;
-    
+    width: 18px;
+    height: 18px;
+    color: var(--color-text);
+}
+.btn_toggle svg{
+    width: 100%;
+    height: 100%;
 }
 .filters ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 0.8rem;
-}
-
-.filters li{
 }
 
 .filter{

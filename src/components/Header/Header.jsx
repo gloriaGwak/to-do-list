@@ -1,17 +1,20 @@
 import React, { useContext, useState } from 'react';
-import { TiAdjustBrightness } from "react-icons/ti";
 import filterStyle from './Header.module.css';
-import DarkModeContext from '../../context/DarkModeContext';
+import DarkModeContext, { useDarkMode } from '../../context/DarkModeContext';
+import { HiMoon, HiSun } from "react-icons/hi";
 
 export default function Header({filters, filter, onFilterChange}) {
-    // const {darkMode, toggleDarkMode} = useContext(DarkModeContext);
+    const {darkMode, toggleDarkMode} = useDarkMode();
+    
     return (
         <header className={filterStyle.filters}>
             <button type='button' 
-                className={filterStyle.dark_mode}
-                // onClick={()=>toggleDarkMode}
+                className={filterStyle.btn_toggle}
+                onClick={toggleDarkMode}
             >
-                <TiAdjustBrightness />
+                {!darkMode && <HiMoon />}
+                {darkMode && <HiSun />}
+                
             </button>
             <ul>
                 {filters.map((value, index) => 
