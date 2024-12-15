@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header/Header'
 import TodoList from './components/TodoList/TodoList';
@@ -10,14 +10,12 @@ export default function App() {
 
     return (
         <DarkModeProvider>
-             {/* value={{darkMode, toggleDarkMode}} */}
             <div className='wrap'>
                 <div className='list_wrap'>
                     <Header 
                         filters={filters} 
                         filter={filter} 
                         onFilterChange={setFilter}
-                        // toggleDarkMode={setDarkMode}
                     />
                     <TodoList filter={filter} />
                 </div>
