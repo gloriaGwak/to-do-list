@@ -15,4 +15,4 @@ A simple and dynamic To Do List application built with **React** and styled usin
 
 ## Live URL
 This application is deployed using **Netlify**.  
-Check it out here: [To Do List Application](###.https://gloria-to-do-list.netlify.app/)
+Check it out here: [To Do List Application](https://gloria-to-do-list.netlify.app/)
