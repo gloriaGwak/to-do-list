@@ -14,5 +14,6 @@ A simple and dynamic To Do List application built with **React** and styled usin
 - **Yarn**: A package manager for dependency management.
 
 ## Live URL
-This application is deployed using **Netlify**.  
-Check it out here: [To Do List Application](https://gloria-to-do-list.netlify.app/)
+This application is deployed using **Netlify**.
+Check it out here: <a href="https://gloria-to-do-list.netlify.app/" target="_blank">To Do List Application</a>
+
