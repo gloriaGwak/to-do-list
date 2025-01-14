@@ -1,6 +1,6 @@
 # To Do List
 
-A simple and dynamic To Do List application built with **React** and styled using **Module CSS**.
+A simple and dynamic To Do List application built with **React** and styled using **CSS Modules**.
 
 ## Features
 - **Dynamic List Management**: Tasks are stored as objects in **Local Storage**, enabling a fully dynamic task list without server communication.
