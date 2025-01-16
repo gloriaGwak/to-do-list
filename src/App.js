@@ -11,6 +11,7 @@ export default function App() {
     return (
         <DarkModeProvider>
             <div className='wrap'>
+                <h1>To Do List</h1>
                 <div className='list_wrap'>
                     <Header 
                         filters={filters} 
