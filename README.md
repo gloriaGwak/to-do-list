@@ -1,6 +1,6 @@
 # To Do List
 
-A simple and dynamic To Do List application built with **React** and styled using **Module CSS**.
+A simple and dynamic To Do List application built with **React** and styled using **CSS Modules**.
 
 ## Features
 - **Dynamic List Management**: Tasks are stored as objects in **Local Storage**, enabling a fully dynamic task list without server communication.
@@ -12,3 +12,7 @@ A simple and dynamic To Do List application built with **React** and styled usin
 - **React**: A JavaScript library for building user interfaces.
 - **Module CSS**: Scoped styling for each component.
 - **Yarn**: A package manager for dependency management.
+
+## Live URL
+This application is deployed using **Netlify**. <br/>
+Check it out here: [To Do List Application](https://gloria-to-do-list.netlify.app/)
