@@ -20,6 +20,9 @@ export default function App() {
                     />
                     <TodoList filter={filter} />
                 </div>
+                <footer>
+                    <p>Designed & Developed by Gloria Gwak</p>
+                </footer>
             </div>
         </DarkModeProvider>
     );
